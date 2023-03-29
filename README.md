@@ -22,3 +22,10 @@ const number2 = 5;
 count(number1, number2);
 Expected output: 30, 5;
 
+Test: "It should return a string asking for a number when the user inputs a blank space" 
+Code:
+const number1 = "";
+const number2 = 5;
+count(number1, number2);
+Expected output: "Please enter a number, bitch";
+

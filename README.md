@@ -29,3 +29,16 @@ const number2 = 5;
 count(number1, number2);
 Expected output: "Please enter a number, bitch";
 
+Test: "It should return a string saying no negative numbers allowed" 
+Code:
+const number1 = 30;
+const number2 = -5;
+count(number1, number2);
+Expected output: "No negative numbers allowed, baby";
+
+Test: "It should return a string alerting number2 should be less than number1" 
+Code:
+const number1 = 30;
+const number2 = 40;
+count(number1, number2);
+Expected output: "Please count up by a number less than the number you're counting to, braniac";
